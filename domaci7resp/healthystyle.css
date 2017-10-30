@@ -1,0 +1,95 @@
+.container{
+	height: 320px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #dadada;
+
+}
+
+.cont{
+
+	float: left;
+	display: inline-block;
+	margin-left: 0.735%;
+	width: 32.4%;
+	background-color: #FFFFFF;
+
+}
+.together{
+	height: 100px;
+	width: 100%;
+}
+
+#first-img{
+	background-image: url(http://confluencewellness.com/wp-content/uploads/Functional-Medicine-Nutrition.jpg);
+}
+#second-img{
+	background-image: url(https://www.fitnessmagazine.com/sites/fitnessmagazine.com/files/1200-core-strength-workout.jpg);
+}
+#third-img{
+	background-image: url(https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2014/07/business-planning-653x339.jpg);
+}
+#first-img,#second-img,#third-img{
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+p{
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+
+}
+#small-first{
+	background-image: url(https://cdn.pixabay.com/photo/2015/12/23/13/28/apple-1105467_960_720.png);
+	position: absolute;
+	top: 150px;
+	left: 15%;
+
+}
+#small-second{
+	background-image: url(http://elym.pics/assets/img/2017/icons/workout.svg);
+	position: absolute;
+	top: 150px;
+	left: 45%;
+
+}
+#small-third{
+	background-image: url(https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/512x512/plain/stopwatch.png);
+	position: absolute;
+	top: 150px;
+	left: 75%;
+}
+#small-first,#small-second,#small-third{
+	display: inline-block;
+	height: 80px;
+	width: 10%;
+	border-radius: 49%;
+	background-color: #FFFFFF;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+
+}
+
+@media only screen and (max-width: 360px){
+	.cont{
+		float: none;
+		display: block;
+		margin: 0.7% auto;
+		width: 80%;
+
+	}
+
+	#first-img,#second-img,#third-img,#small-first,#small-second,#small-third{
+		display: none;
+	}
+
+	
+}

@@ -1,0 +1,122 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+
+}
+
+header{
+	width: 75%;
+	opacity: 0.7;
+	margin: 0 auto;
+
+}
+
+.logo{
+	display: inline-block;
+	font-weight: bold;
+	padding: 5px;
+
+}
+nav{
+	float: right;
+
+}
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	padding: 5px;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+a.navigation:hover{
+	border-bottom: 3px solid #FF6400;
+}
+
+
+article{
+	width: 60%;
+	margin: 0 auto;
+
+}
+#image{
+	background-image: url(http://swiftsrbija.rs/wp-content/uploads/2016/03/20160302_180136.jpg);
+	height: 370px;
+	max-width:100%;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+}
+
+section{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	position: relative;
+	top: -50px;
+	text-align: left;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+	box-shadow: 2px 2px 4px #DADADA;
+	
+}
+
+section p{
+	font-size: 13px;
+	color: #7A7A7A;
+}
+
+h1{
+	margin-bottom: 0px;
+}
+
+a#heading:hover{
+	color: #828282;
+}
+
+#date{
+	font-size: 10px;
+}
+
+#comment{
+	color: #FF6400;
+	font-size: 12px;
+
+}
+
+#avatar{
+	height: 30px;
+	width: 30px;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/1/1e/Default-avatar.jpg);
+	background-size: contain;
+	border-radius: 50%;
+	float: right;
+}
+
+
+@media only screen and (max-width: 768px){
+	#image{
+		display: none;
+
+	}
+	section{
+		position: static;
+	}
+
+}
+@media only screen and (max-width: 576px){
+	header{
+		width: 100%;
+	}
+}
+
